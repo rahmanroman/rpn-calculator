@@ -30,7 +30,6 @@ describe('PRN calculator should work', async () => {
 
         rpn.parse('+');
         assert.equal(rpn.toString(), '13');
-
     });
 
     it('Example #2', async () => {
