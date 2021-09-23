@@ -1,0 +1,12 @@
+env:
+    browser: true
+    node: true
+    es6: true
+
+parserOptions:
+    ecmaVersion: 2018
+    ecmaFeatures:
+        experimentalObjectRestSpread: true
+
+rules:
+    no-var: 0

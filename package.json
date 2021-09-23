@@ -1,0 +1,17 @@
+{
+  "name": "rpn-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rahmanroman/rpn-calculator.git",
+  "author": "Roman Rahman <rahman.roman@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lock": "npm install --package-lock-only",
+    "test": "mocha  ./tests --recursive"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "9.1.1"
+  }
+}
