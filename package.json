@@ -1,7 +1,7 @@
 {
   "name": "rpn-calculator",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/rpn.js",
   "repository": "git@github.com:rahmanroman/rpn-calculator.git",
   "author": "Roman Rahman <rahman.roman@gmail.com>",
   "license": "MIT",

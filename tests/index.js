@@ -74,6 +74,16 @@ describe('PRN calculator should work', async () => {
         assert.equal(rpn.toString(), '0.625');
     });
 
+    it('Adding exponentiation operation', async () => {
+        rpn.registerBinaryOperation('^', (a, b) => Math.pow(a, b));
+
+        rpn.parse('7 3 ^');
+        assert.equal(rpn.toString(), '343');
+
+        rpn.parse('4 0.5 ^');
+        assert.equal(rpn.toString(), '2');
+    });
+
     afterEach(() => {
         rpn.reset();
     });
