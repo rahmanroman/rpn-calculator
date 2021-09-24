@@ -41,20 +41,20 @@ describe('PRN calculator should work', async () => {
     });
 
     it('Example #3', async () => {
-        // rpn.parse('-3');
-        // assert.equal(rpn.toString(), '-3.0');
-        //
-        // rpn.parse('-2');
-        // assert.equal(rpn.toString(), '-2.0');
-        //
-        // rpn.parse('*');
-        // assert.equal(rpn.toString(), '6.0');
-        //
-        // rpn.parse('5');
-        // assert.equal(rpn.toString(), '5.0');
-        //
-        // rpn.parse('+');
-        // assert.equal(rpn.toString(), '11.0');
+        rpn.parse('-3');
+        assert.equal(rpn.toString(), '-3.0');
+
+        rpn.parse('-2');
+        assert.equal(rpn.toString(), '-2.0');
+
+        rpn.parse('*');
+        assert.equal(rpn.toString(), '6.0');
+
+        rpn.parse('5');
+        assert.equal(rpn.toString(), '5.0');
+
+        rpn.parse('+');
+        assert.equal(rpn.toString(), '11.0');
     });
 
     it('Example #4', async () => {
