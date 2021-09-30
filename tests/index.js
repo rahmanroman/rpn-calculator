@@ -6,6 +6,10 @@ const {RPN} = require('../lib/rpn');
 describe('PRN calculator should work', async () => {
     const rpn = new RPN();
 
+    it('Empty state', async () => {
+        assert.equal(rpn.toString(), 'undefined');
+    });
+
     it('Empty expression', async () => {
         assert.throw(() => rpn.parse(''), TypeError);
     });
